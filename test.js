@@ -42,6 +42,35 @@ async function transaction(index = 0) {
     })
     console.log(tx1)
 
+    // updateauth
+    // const tx2 = await fibos.transaction(tr => {
+    //     tr.updateauth({
+    //         "account": "testledger12",
+    //         "permission": "active",
+    //         "parent": "owner",
+    //         "auth": {
+    //             "threshold": 1,
+    //             "keys": [
+    //                 {
+    //                     "key": "FO5xBcH4WD5NK9NyLq5Mb8oKQM7dTFtGTJDTPPoYjXXeREdwE6Di",
+    //                     "weight": 1
+    //                 }
+    //             ],
+    //             "accounts": [
+    //                 {
+    //                     "permission": {
+    //                         "actor": "rockrockrock",
+    //                         "permission": "active"
+    //                     },
+    //                     "weight": 1
+    //                 }
+    //             ],
+    //             "waits": []
+    //         }
+    //     });
+    // })
+    // console.log(tx2)
+
     await transport.close()
 
 }
