@@ -1,0 +1,17 @@
+{
+  "name": "fibos-ledger-sample",
+  "version": "1.0.0",
+  "description": "sample scripts of using ledger to sign fibos tx",
+  "main": "test.js",
+  "author": "Tiny Hill",
+  "license": "MIT",
+  "dependencies": {
+    "@ledgerhq/hw-transport-node-hid": "^4.68.4",
+    "@qiushaoxi/hw-app-eosio": "^1.0.6",
+    "babel-polyfill": "^6.26.0",
+    "base32.js": "^0.1.0",
+    "fibos.js": "^0.3.11",
+    "sha.js": "^2.3.6",
+    "tweetnacl": "^1.0.0"
+  }
+}
